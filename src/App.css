@@ -19,23 +19,23 @@ a{
 
 {
 
-    /* ff 3.6+ */
-    background:-moz-linear-gradient(90deg, rgba(96, 91, 213, 1) 0%, rgba(185, 78, 187, 1) 31%, rgba(233, 55, 92, 1) 65%, rgba(237, 98, 74, 1) 100%); 
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, rgba(237, 98, 74, 1) 0%, rgba(233, 55, 92, 1) 35%, rgba(185, 78, 187, 1) 69%, rgba(96, 91, 213, 1) 100%); 
 
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-linear-gradient(90deg, rgba(96, 91, 213, 1) 0%, rgba(185, 78, 187, 1) 31%, rgba(233, 55, 92, 1) 65%, rgba(237, 98, 74, 1) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, rgba(237, 98, 74, 1) 0%, rgba(233, 55, 92, 1) 35%, rgba(185, 78, 187, 1) 69%, rgba(96, 91, 213, 1) 100%);
 
-    /* opera 11.10+ */
-    background:-o-linear-gradient(90deg, rgba(96, 91, 213, 1) 0%, rgba(185, 78, 187, 1) 31%, rgba(233, 55, 92, 1) 65%, rgba(237, 98, 74, 1) 100%);
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, rgba(237, 98, 74, 1) 0%, rgba(233, 55, 92, 1) 35%, rgba(185, 78, 187, 1) 69%, rgba(96, 91, 213, 1) 100%);
 
-    /* ie 6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ED624A', endColorstr='#605BD5', GradientType=0 );
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#605BD5', endColorstr='#ED624A', GradientType=0 );
 
-    /* ie 10+ */
-    background:-ms-linear-gradient(90deg, rgba(96, 91, 213, 1) 0%, rgba(185, 78, 187, 1) 31%, rgba(233, 55, 92, 1) 65%, rgba(237, 98, 74, 1) 100%);
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, rgba(237, 98, 74, 1) 0%, rgba(233, 55, 92, 1) 35%, rgba(185, 78, 187, 1) 69%, rgba(96, 91, 213, 1) 100%);
 
-    /* global 94%+ browsers support */
-    background:linear-gradient(90deg, rgba(96, 91, 213, 1) 0%, rgba(185, 78, 187, 1) 31%, rgba(233, 55, 92, 1) 65%, rgba(237, 98, 74, 1) 100%);
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, rgba(237, 98, 74, 1) 0%, rgba(233, 55, 92, 1) 35%, rgba(185, 78, 187, 1) 69%, rgba(96, 91, 213, 1) 100%);
 
 }
 
@@ -46,11 +46,11 @@ a{
     -webkit-text-fill-color: transparent;
 }
 
-.section__padding: {
+.section__padding {
     padding: 4rem 6rem;
 }
 
-.section__margin: {
+.section__margin {
     margin: 4rem 6rem;
 }
 
@@ -81,20 +81,20 @@ a{
   }
   
   @media screen and (max-width: 700px) {
-    .section__padding:{
+    .section__padding{
         padding: 4rem;
     }
-    .section__margin:{
+    .section__margin{
         margin: 4rem;
     }
     
   }
 
   @media screen and (max-width: 550px) {
-    .section__padding:{
+    .section__padding{
         padding: 4rem 2rem;
     }
-    .section__margin:{
+    .section__margin{
         margin: 4rem 2rem;
     }
     
