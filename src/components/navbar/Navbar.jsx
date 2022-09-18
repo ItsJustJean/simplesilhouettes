@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {RiMenu3Line, RiCloseLin, RiCheckboxBlankCircleFill, RiCloseLine} from 'react-icons/ri';
+import {RiMenu3Line, /*RiCloseLin, RiCheckboxBlankCircleFill,*/ RiCloseLine} from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/white-logo.svg';
 import './navbar.css';
@@ -24,9 +24,7 @@ const Navbar = () => {
           <img src={logo} alt='logo'/>
         </div>
         <div className='simple_navbar-links_container'>
-          <div className='simple_navbar-menu_container-links-sign'>
           <Menu />
-          </div>
         </div>
       </div>
       <div className='simple_navbar-sign'>

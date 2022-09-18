@@ -96,7 +96,7 @@
 }
 
 .simple_navbar-menu_container-links-sign {
-    display: flex;
+    display: none;
 }
 
 @media screen and (max-width: 1050px) {
