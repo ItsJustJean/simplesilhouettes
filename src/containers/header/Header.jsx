@@ -6,7 +6,7 @@ import kimono from '../../assets/kimono.png';
 const Header = () => (
   <div className="simple__header section__padding" id="home">
     <div className="simple__header-content">
-      <h1 className="gradient__text">Redifining affordable fashion.<br></br> Simple, Subtle, Stylish. </h1>
+      <h1>Redifining affordable fashion.<br></br> Simple, Subtle, Stylish. </h1>
       <p>Welcome to a revolution in the fashion industry. Redefining the standard for Men and Women's fashion one piece at a time.</p>
 
       <div className="simple__header-content__input">
